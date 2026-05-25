@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: nereid-maritime-intel
+Version: 1.0.0
+Summary: Maritime intelligence engine using AIS vessel tracking
+Author: Genesis OSINT Team
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: genesis-core>=1.0.0
+Requires-Dist: fastapi>=0.100.0
+Requires-Dist: uvicorn>=0.22.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+
+# nereid-maritime-intel
+
+maritime intelligence engine tracking vessels via public AIS data.
+
+## install
+
+```bash
+pip install -e .
+```
