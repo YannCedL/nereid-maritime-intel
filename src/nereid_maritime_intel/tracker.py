@@ -16,3 +16,5 @@ def track_vessels(lat: float, lon: float, radius_nm: int = 50) -> ResultContract
         value=f"{len(vessels)} vessels", source="AIS_Public_Feed", observed_at=now,
         confidence=0.94, status=EpistemicStatus.FACT))
     return contract
+
+# added vessel type classification
